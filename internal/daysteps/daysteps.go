@@ -20,7 +20,6 @@ type DaySteps struct {
 	personaldata.Personal
 }
 
-// создайте метод Parse()
 // Parse парсит строку с данными о прогулке.
 func (ds *DaySteps) Parse(datastring string) error {
 	// Разделяем строку на части
@@ -49,7 +48,6 @@ func (ds *DaySteps) Parse(datastring string) error {
 	return nil
 }
 
-// создайте метод ActionInfo()
 // ActionInfo формирует строку с информацией о прогулке.
 func (ds DaySteps) ActionInfo() (string, error) {
 	// Проверяем, что продолжительность больше 0

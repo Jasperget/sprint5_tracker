@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// Создайте интерфейс DataParser
+// Интерфейс DataParser
 type DataParser interface {
 	Parse(datastring string) error
 	ActionInfo() (string, error)

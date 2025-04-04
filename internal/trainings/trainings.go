@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-// создайте структуру Training
+// Структура Training
 type Training struct {
 	personaldata.Personal
 	Steps        int
@@ -48,7 +48,7 @@ func (t *Training) Parse(datastring string) (err error) {
 	return nil
 }
 
-// создайте метод ActionInfo()
+// Метод ActionInfo()
 func (t Training) ActionInfo() (string, error) {
 	// Проверяем, что продолжительность больше 0
 	if t.Duration <= 0 {
