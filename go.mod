@@ -1,3 +1,4 @@
-module github.com/Yandex-Practicum/go1fl-sprint5-final
+module sprint5_tracker
+
 
 go 1.23.6
